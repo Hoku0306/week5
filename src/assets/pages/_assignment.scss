@@ -1,0 +1,59 @@
+a {
+  color: black;
+}
+
+.fs-sm {
+  font-size: 12px;
+}
+
+.text-green {
+  color: #198754;
+}
+
+.bg-green {
+  background-color: #198754;
+}
+
+.border-green {
+  border: 1px solid #198754;
+}
+
+.border-gray {
+  border: none;
+  padding-left: 24px;
+}
+
+.bottom-custom {
+  bottom: 0px;
+}
+
+.sideBtnActive {
+  color: #198754;
+}
+
+.sideLiActive {
+  border: none;
+  border-left: 4px solid #198754;
+  padding-left: 20px;
+}
+
+.reply {
+  width: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.8s;
+  bottom: -22px;
+}
+
+.btnInReply {
+  bottom: 16px;
+  right: 16px;
+}
+
+.reply.commentActive {
+  width: 100%;
+  max-height: 100%;
+  z-index: 2;
+  overflow: visible;
+}
