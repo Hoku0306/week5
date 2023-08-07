@@ -25,8 +25,8 @@
       </nav>
     </div>
   </section>
-  <section class="ps-4 pe-0 pb-4">
-    <div class="container-fluid row">
+  <section class="pb-4">
+    <div class="container-fluid row pe-0">
       <div class="taskList col-4 ps-0">
         <div class="dropdown">
           <button
@@ -79,7 +79,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-8 ps-2">
+      <div class="col-8 px-2">
         <p class="fs-sm text-gray text-end mb-2">2 comments</p>
         <ul class="list-group">
           <li class="list-group-item p-3 bg-gray d-flex align-items-center justify-content-between">
