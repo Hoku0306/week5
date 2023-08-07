@@ -1,7 +1,7 @@
 <template>
   <section class="">
     <div class="ps-0">
-      <nav class="d-flex align-items-center w-auto p-4">
+      <nav class="d-flex align-items-center w-auto p-4 ps-0">
         <h2 class="fs-3 me-4">Assignment</h2>
         <div class="dropdown">
           <button
