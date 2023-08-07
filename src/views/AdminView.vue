@@ -241,7 +241,12 @@
                       >
                         Deactivate
                       </button>
-                      <button type="button" class="btn btn-success rounded-1 fw-bold px-4">
+                      <button
+                        type="button"
+                        class="btn btn-success rounded-1 fw-bold px-4"
+                        data-bs-toggle="modal"
+                        data-bs-target="#editAdmin"
+                      >
                         Edit
                       </button></span
                     >
