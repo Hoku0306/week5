@@ -142,7 +142,7 @@
     </div>
   </section>
   <!-- table -->
-  <section class="px-4">
+  <section class="px-4 table-responsive-xxl">
     <table class="table">
       <thead>
         <tr>
@@ -159,22 +159,22 @@
       </thead>
       <tbody>
         <tr v-for="(item, index) in adminList" :key="index">
-          <th scope="row" class="fw-normal py-3" width="70">
+          <th scope="row" class="fw-normal py-3" width="10%">
             <a href="#" class="adminBtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">{{
               `#${index + 1}`
             }}</a>
           </th>
-          <td class="py-3" width="250">
+          <td class="py-3" width="25%">
             <a href="#" class="adminBtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">{{
               item.name
             }}</a>
           </td>
-          <td class="py-3" width="350">
+          <td class="py-3" width="35%">
             <a href="#" class="adminBtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">{{
               item.email
             }}</a>
           </td>
-          <td class="py-3">
+          <td class="py-3" width="20%">
             <a href="#" class="adminBtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">{{
               item.verify
             }}</a>
@@ -286,6 +286,7 @@
                 class="p-3 border-0 bg-gray mb-3"
                 name="name"
                 placeholder="Emir Wicks"
+                readonly
               />
               <label for="email" class="fs-sm">Email</label>
               <input
@@ -293,6 +294,7 @@
                 class="p-3 border-0 bg-gray"
                 name="email"
                 placeholder="emir.wicks@mail.com"
+                readonly
               />
             </form>
             <div class="verify border-bottom pb-4">
@@ -401,22 +403,22 @@
     <nav aria-label="Page navigation example" class="ms-auto">
       <ul class="pagination pagination-sm justify-content-end">
         <li class="page-item border-green rounded-start d-flex align-items-center">
-          <a class="p-2 text-black d-flex" href="#"
-            ><span class="material-icons text-green"> chevron_left </span></a
+          <RouterLink to="/Admin" class="p-2 text-black d-flex" href="#"
+            ><span class="material-icons text-green"> chevron_left </span></RouterLink
           >
         </li>
         <li class="page-item border-green d-flex align-items-center">
-          <a class="py-2 px-3 text-white bg-green" href="#">1</a>
+          <RouterLink to="/Admin" class="py-2 px-3 text-white bg-green" href="#">1</RouterLink>
         </li>
         <li class="page-item border-green d-flex align-items-center">
-          <a class="py-2 px-3 text-black" href="#">2</a>
+          <RouterLink to="/Admin" class="py-2 px-3 text-black" href="#">2</RouterLink>
         </li>
         <li class="page-item border-green d-flex align-items-center">
-          <a class="py-2 px-3 text-black" href="#">3</a>
+          <RouterLink to="/Admin" class="py-2 px-3 text-black" href="#">3</RouterLink>
         </li>
         <li class="page-item border-green rounded-end d-flex align-items-center">
-          <a class="p-2 text-black d-flex" href="#"
-            ><span class="material-icons text-green"> chevron_right </span></a
+          <RouterLink to="/Admin" class="p-2 text-black d-flex" href="#"
+            ><span class="material-icons text-green"> chevron_right </span></RouterLink
           >
         </li>
       </ul>
